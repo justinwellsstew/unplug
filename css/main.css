@@ -96,12 +96,103 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
+ 
+     /* General Styles */
+ 
+html {
+  font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+ 
+ul, 
+ol {
+ 
+}
+ 
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+ 
+p {
+	
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ 
+}
+	
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+ 
+.content-wrapper {
+ 
+}
+
   
   .content-wrapper {
     width: 90%;
     margin: 50px 0;
   }
-  
+
+  nav ul {
+    list-style-type:none;
+  }
+
+  .features .features-item-description {
+    text-align: center;
+  }
+
+  footer .copyright p {
+    text-align: center;
+  }
+  footer .contact {
+    text-align: center;
+  }
   /* -------------------- Base Header - Footer Styles -------------------- */
   
   header,
@@ -378,6 +469,9 @@
      These examples override the primary ('mobile first') styles.
      Modify as content requires.
      ========================================================================== */
+
+
+
   
      @media only screen and (min-width:1200px) {
      
