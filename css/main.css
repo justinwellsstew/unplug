@@ -276,6 +276,7 @@ input[type=button] {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url("../img/jake-melara-30679-unsplash.jpg") no-repeat;
   }
   
   /* Aside */
@@ -729,4 +730,8 @@ input[type=button] {
     h3 {
       page-break-after: avoid;
     }
+  }
+
+  img {
+    width: 100%;
   }
